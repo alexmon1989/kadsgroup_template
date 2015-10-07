@@ -1,0 +1,21 @@
+/* Add here all your css styles (customizations) */
+
+.title-v1 h1::after, .title-v1 h2::after {
+    background: #fff none repeat scroll 0 0;
+}
+
+.content-md {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.companies {
+    padding-top: 20px;
+    background: #dedede; /* Для старых браузров */
+    background: linear-gradient(to top, #dedede, #fff);
+}
+
+.widgets {
+    background-color: #0083c3;
+    padding-top: 10px;
+}
